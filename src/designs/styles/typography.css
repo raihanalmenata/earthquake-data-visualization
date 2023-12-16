@@ -1,0 +1,12 @@
+:root {
+
+    /* Bold */
+    --P-B-32: 700 32px Inter;
+    --P-B-20: 700 20px Inter;
+    --P-B-15: 700 15px Inter;
+    --P-B-12: 700 12px Inter;
+
+    /* Medium */
+    --P-M-12: 500 12px Inter;
+
+}

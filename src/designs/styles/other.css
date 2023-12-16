@@ -1,0 +1,9 @@
+:root {
+    
+    /* Border Radius */
+    --border-radius-R: 8px;
+
+    /* Box Shadow */
+    --shadow-inner-soft: 0px 0px 14px 3px rgba(0, 0, 0, 0.05) inset;
+
+}
