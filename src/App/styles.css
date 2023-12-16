@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+#app-con {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--secondary);
+}
+
+#app {
+    flex-grow: 1;
+    max-width: 690px;
+
+    padding: 48px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--primary);
+}
