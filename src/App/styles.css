@@ -58,3 +58,10 @@ body {
     font: var(--P-M-12);
     color: var(--gray-1);
 }
+
+#app-content .content-row {
+    display: flex;
+    
+    padding: 24px;
+    gap: 16px;
+}
