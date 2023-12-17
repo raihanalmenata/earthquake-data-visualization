@@ -3,7 +3,10 @@ import '../designs/styles/typography.css'
 import '../designs/styles/other.css'
 
 import './styles.css'
+
 import icon from '../assets/icon.svg'
+import TotalEQPerHourOnYesterdayCard from './components/TotalEQPerHourOnYesterdayCard'
+import Top3StateCard from './components/Top3StateCard'
 
 const App = () => {
   return (
@@ -16,9 +19,17 @@ const App = () => {
           <div id="heading-con">
             <h2 id="subtitle">Data Visualization Dashboard:</h2>
             <h1 id="title">USGS Recorded US Earthquake</h1>
-            <p id="desc">Any brief description here..</p>
+            <p id="desc">This page showcases some of data visualization curated from 'https://earthquake.usgs.gov/fdsnws/event/1/'.</p>
           </div>
         </header>
+        <main id="app-content">
+          <section className="content-row"> 
+          <TotalEQPerHourOnYesterdayCard />
+          </section>
+          <section className="content-row"> 
+          <Top3StateCard />
+          </section>
+        </main>
       </div>
     </div>
   )
